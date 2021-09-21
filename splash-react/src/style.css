@@ -1,0 +1,58 @@
+.bullet{
+    position:absolute;
+    top:80%;
+    left:calc(50% - 20px);
+    height:40px;
+    width:40px;
+    background-color:grey;
+    border-radius:10px;
+    transition: transform .5s, background-color .5s;
+
+}
+
+.fakeBullet{
+    height:40px;
+    width:40px;
+    background-color:grey;
+    border-radius:10px;
+}
+
+.bulletOff{
+    transform:rotate(0deg)scale(1);
+    transition: transform .5s, background-color .5s;
+
+
+}
+
+.bulletOn{
+    transform:rotate(360deg)scale(1.5);
+    transition: transform 1s, background-color .5s;
+
+}
+.canvass{
+    position:relative;
+    width:100%;
+    height:80%;
+
+
+}
+
+.magazine{
+    position:relative;
+    width:100%;
+    height:20%;
+    display:flex;
+    flex-direction:row;
+    
+    
+}
+
+.AppContainer{
+    height:812px;
+    width:375px;
+    border-radius:20px;
+    border:3px solid lightslategray;
+    margin:auto;
+    position:relative;
+    /* overflow: hidden; */
+}
