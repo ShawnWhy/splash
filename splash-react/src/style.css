@@ -55,6 +55,7 @@
     margin:auto;
     position:relative;
     overflow: hidden;
+    transform:scale(.9)
 }
 
 .splatter{
