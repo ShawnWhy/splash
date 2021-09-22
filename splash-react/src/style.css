@@ -54,5 +54,54 @@
     border:3px solid lightslategray;
     margin:auto;
     position:relative;
-    /* overflow: hidden; */
+    overflow: hidden;
+}
+
+.splatter{
+    position:absolute;
+    height:600px;
+    width:600px;
+    top:-300px;
+    border-radius:300px;
+    transition: transform .5s;
+
+}
+.smallspla{
+    position:absolute;
+    height:20px;
+    width:20px;
+    border-radius:10px;
+    transform:scale(1)translate(0);
+    transition: transform .7s;
+
+}
+
+.clearButton{
+    left:5%;
+    padding:5px;
+    border-radius: 3px;
+    position:absolute;
+    z-index:999;
+    background-color:rgb(245, 243, 143);
+
+}
+.mixup{
+    padding:5px;
+    border-radius: 3px;
+    position:absolute;
+    z-index:999;
+    background-color:rgb(164, 237, 255);
+    left:80%;
+
+
+}
+.download{
+    padding:5px;
+    border-radius: 3px;
+    left:50%;
+    position:absolute;
+    z-index:999;
+    background-color:rgb(255, 163, 163);
+
+
 }
